@@ -5,9 +5,10 @@ body {
     grid-template-columns: 50px 500px 300px 200px ;
     grid-template-rows: 200px 200px 200px 200px ;
     grid-template-areas: 
+    "header     header     header    header"
     "nav      nav     nav     nav "
-    ".     header     header    ."
     ".     main     aside     ."
+    ".     article  article    ."
     "footer footer footer footer";
 background-color: rgb(80, 78, 88);    
 }
@@ -17,6 +18,7 @@ html, body {
 
 header {
     grid-area: header;
+   
 }
 
 nav {
@@ -54,6 +56,9 @@ main {
 aside {
     grid-area: aside;
 }
+article {
+    grid-area: article;
+}
 nav ul ul {
     visibility:hidden;
     flex-direction:row;
@@ -62,5 +67,7 @@ nav ul li:hover ul{
     display: flex;
     visibility: visible;
 }
-
+#firstPageHeader {
+    background-image: url(../img/Logotyp.jpg);
+}
 
