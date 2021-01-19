@@ -92,3 +92,16 @@ th {
 tr:nth-of-type(even) {
     background-color: #EDC;
 }
+#booking {
+    padding: 20px;
+}
+#booking fieldset {
+    background-color: #ffeedd;
+    margin-bottom: 20px;
+}
+#booking legend {
+    font-weight: bold;
+}
+#send {
+text-align: right;
+}

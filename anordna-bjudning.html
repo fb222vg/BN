@@ -31,6 +31,57 @@
             <li><a class="thisPage" href="anordna-bjudning.html">Anordna bjudning</a></li>
         </ul>
     </nav>
-    
+    <article>
+        <form id="booking">
+            <fieldset id="name">
+                <legend>
+                Namn och efternamn
+                </legend>
+                <div>
+
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend id="date">
+                 Datum för bjudningen och antal gäster
+                </legend>
+                <div>
+                    <label>
+                        Datum <input type="date" name="datum">
+                    </label>
+                    <label>
+                        Antal gäster <select name="nrOfGuests" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset id="location">
+                <legend>
+                 Plats
+                </legend>
+                <div>
+                    <label for="plats">Adress</label>
+                    <input type="text" name="adress" id="plats">
+                </div>
+            </fieldset>
+            <fieldset id="mail">
+                <legend>
+                 Mailadress
+                </legend>
+                <div>
+                    <label for="Mailadress">Mailadress</label>
+                    <input type="text" name="Mailadress" id="Mailadress">
+                </div>
+            </fieldset>
+            <div id="send">
+                <input type="submit" value="skicka förfrågan">
+            </div>
+        </form>
+    </article>
 </body>
 </html>
