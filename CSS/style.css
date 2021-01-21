@@ -46,10 +46,10 @@ nav a:link, nav a:visited {
     color: lawngreen;
 }
 nav a:hover, nav a:active {
-    background-color: rgb(141, 131, 131), 70);
+    background-color: rgb(141, 131, 131);
     color: navy;
 }
-nav a.thisPage {
+nav a .thisPage {
     color: orange;
 }
 main {
@@ -104,4 +104,17 @@ tr:nth-of-type(even) {
 }
 #send {
 text-align: right;
+}
+#booking fieldset div {
+    display:grid;
+    gap: 0.6em;
+    white-space: nowrap;
+}
+#date div {
+    grid-template-columns: 1fr 1fr;
+}
+#send input {
+    font-size: 1.5em;
+    border-radius: 0.6em;
+    background-color: #77bbee;
 }
