@@ -76,6 +76,8 @@ table {
     background-color: #ffffff;
     border-collapse: collapse;
     box-shadow: 10px 10px 15px #1b1a1a;
+    ;
+    float:right;
     
     
 }
@@ -103,7 +105,7 @@ tr:nth-of-type(even) {
     font-weight: bold;
 }
 #send {
-text-align: right;
+text-align: justify;
 }
 #booking fieldset div {
     display:grid;
@@ -116,5 +118,26 @@ text-align: right;
 #send input {
     font-size: 1.5em;
     border-radius: 0.6em;
-    background-color: #77bbee;
+    background-color: #c41313;
+    box-shadow: 10px 10px 15px #1b1a1a;
+}
+#location {
+    width: 60ch;
+    box-shadow: 10px 10px 15px #1b1a1a;
+}
+#name {
+    width: 60ch;
+    box-shadow: 10px 10px 15px #1b1a1a;
+}
+#mail {
+    width: 60ch;
+    box-shadow: 10px 10px 15px #1b1a1a;
+}
+#date {
+    width: 60ch;
+    box-shadow: 10px 10px 15px #1b1a1a;
+}
+#uppgifter {
+    width: 60ch;
+    box-shadow: 10px 10px 15px #1b1a1a;
 }
