@@ -141,3 +141,49 @@ text-align: justify;
     width: 60ch;
     box-shadow: 10px 10px 15px #1b1a1a;
 }
+#wrapper div {
+    width: 400px;
+    height: 500px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(126, 26, 26);
+    border-radius: 15px;
+    
+}
+#box1 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 45px;
+    
+}
+#victor-profil {
+    width: 300px;
+    margin-left: 50px;
+    vertical-align: top;
+    border-radius: 50%;
+    border-style: double;
+    border-color: black;
+    border-style: double;
+    border-color: black;
+}
+#fredrik-profil {
+    width: 300px;
+    margin-left: 50px;
+    vertical-align: top;
+    border-radius: 50%;
+    height: 300px;
+    border-style: double;
+    border-color: black;
+    
+}
+#linus-profil {
+    width: 300px;
+    margin-left: 50px;
+    vertical-align: top;
+    border-radius: 50%;
+    border-style: double;
+    border-color: black;
+}
+#box1 p {
+    padding:10px;
+}
