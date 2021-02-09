@@ -187,15 +187,25 @@ text-align: justify;
 #box1 p {
     padding:10px;
 }
+section {
+    margin-bottom: 30px;
+}
 section ul {
     list-style: none;
     display: flex;
     flex-direction: row;
 }
-section img {
+#galleri img {
 height: 200px;
-margin-right: 20px;
-border-radius: 15px;
-
-    
+margin-right: 40px;
+border-radius: 10px;
+transition:transform 1s;
+opacity:1;
+}
+#galleri img:hover {
+transform:scale(1.2);
+opacity:0.7;
+}
+#rubrik1 {
+margin-left: 500px;
 }
