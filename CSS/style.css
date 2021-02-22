@@ -209,3 +209,22 @@ opacity:0.7;
 #rubrik1 {
 margin-left: 500px;
 }
+#måltid {
+    width: 500px ;
+    height: 400px;
+    
+
+}
+#pinne {
+    width:500px;
+    margin-left: 50px;
+    margin-top: 27px;
+    height: 450px;
+}
+#intro {
+    background-color:#c41313;
+    font-style: italic;
+    color: bisque;
+    padding:20px;
+    height:360px;
+}
