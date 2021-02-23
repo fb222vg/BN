@@ -20,6 +20,9 @@ header {
     grid-area: header;
    
 }
+footer {
+    grid-area: footer;
+}
 
 nav {
     grid-area: nav;
@@ -227,4 +230,19 @@ margin-left: 500px;
     color: bisque;
     padding:20px;
     height:360px;
+    
+}
+#wrapper2 {
+    opacity: 0.5;
+}
+#wrapper2 div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: antiquewhite;
+    background-color: black;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    
 }
