@@ -33,34 +33,38 @@ nav {
 }
 nav ul {
     list-style: none;
-    margin:30px;
+    margin:0;
     padding: 0;
     display:flex;
     justify-content: space-evenly;
     flex-direction: row;
-    text-align: center;
+    
    position: relative;
+   gap: 0.5rem;
     
 }
 nav a {
     text-decoration: none;
-    display:flex;
+    display: block;
+    padding: 0.4rem;
     text-align: left;
     
 }
 nav ul ul {
     visibility:hidden;
-    flex-direction:row;
+    flex-direction:column;
     gap:1rem;
     list-style: none;
     position: absolute;
     display: flex;
+    margin-left: 0;
+    border 1px solid #333333;
+    box-shadow: 6px 6px 10px #333333;
     
 }
 nav ul li:hover ul{
-    display: flex;
     visibility: visible;
-    flex-direction: row;
+    background-color: rgb(117, 107, 103);
     
 }
 nav a:link, nav a:visited {
