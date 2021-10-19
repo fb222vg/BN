@@ -3,18 +3,20 @@
 body {
     display:grid;
     grid-template-columns: 50px 500px 300px 200px ;
-    grid-template-rows: 200px 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px 200px 200px ;
     grid-template-areas: 
     "header     header     header    header"
     "nav      nav     nav     nav "
     ".     main     aside     ."
     ".     article  article    ."
     "footer footer footer footer";
-background-color: rgb(80, 78, 88);    
+background-color: rgb(80, 78, 88);
+    
 }
 html, body {
     height:100%;
 }
+
 
 header {
     grid-area: header;
@@ -34,19 +36,37 @@ nav ul {
     margin:30px;
     padding: 0;
     display:flex;
-    gap:2rem;
+    justify-content: space-evenly;
     flex-direction: row;
     text-align: center;
+   position: relative;
     
 }
 nav a {
     text-decoration: none;
-    display:block;
+    display:flex;
+    text-align: left;
+    
+}
+nav ul ul {
+    visibility:hidden;
+    flex-direction:row;
+    gap:1rem;
+    list-style: none;
+    position: absolute;
+    display: flex;
+    
+}
+nav ul li:hover ul{
+    display: flex;
+    visibility: visible;
+    flex-direction: row;
     
 }
 nav a:link, nav a:visited {
    
     color: lawngreen;
+    
 }
 nav a:hover, nav a:active {
     background-color: rgb(141, 131, 131);
@@ -64,14 +84,7 @@ aside {
 article {
     grid-area: article;
 }
-nav ul ul {
-    visibility:hidden;
-    flex-direction:row;
-}
-nav ul li:hover ul{
-    display: flex;
-    visibility: visible;
-}
+
 #firstPageHeader {
     background-image: url(../img/Logotyp.jpg);
 }
@@ -250,4 +263,20 @@ margin-left: 500px;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-style: ridge;
+}
+#menuicon {
+    display: inline-block;
+    background-image: url(../img/menuicon.png);
+    width: 24px;
+    height: 24px;
+    cursor:pointer;
+}
+#menucheckbox {
+    display: none;
+}
+#menucheckbox ~ ul {
+    display: none;
+}
+#menucheckbox:checked ~ ul {
+    display: flex;
 }
