@@ -284,3 +284,15 @@ margin-left: 500px;
 #menucheckbox:checked ~ ul {
     display: flex;
 }
+@media screen and (max-width:600px) {
+   nav ul ul{
+        display: flex;
+        visibility:hidden;
+        position:relative;
+   
+    }
+    nav ul li:active ul {
+        visibility:visible;
+        position:absolute;
+    }
+}
